@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pay.css">
+    <script src="./js/pay.js" defer></script>
+    <title>Thanh Toán</title>
+</head>
+<body>
+    <div class="pay">
+        <div class="header1">
+            <ul class="list1">
+                <a href="index.html"><img src="./img/logo.png" class="header1-img1"></a>
+                <li class="list1-items"><a href="index.html" class="a1">TRANG CHỦ</a></li>
+                <li class="list1-items"><a href="accessories.html" class="a1">ACCESSORIES</a></li>
+                <li class="list1-items"><a href="contact.html" class="a1">LIÊN HỆ</a></li>
+                <li class="list1-items"><a href="cart.html" class="a1">GIỎ HÀNG</a></li>
+                <li class="list1-items"><a href="introduction.html" class="a1">GIỚI THIỆU</a></li>
+            </ul>
+        </div>
+        <div class="main3">
+            <div class="main3-1">
+                <div class="main3-11">Thanh Toán</div>
+                <div class="main3-12">
+                    <div class="main3-121">
+                        <img src="./img/ma_uu_dai.png" class="main3-1211">
+                        <div class="main3-1212">Bạn có mã ưu đãi?</div>
+                        <p id="sale1" class="main3-1212 z1">Ấn vào đây để nhập mã</p>
+                    </div>
+                    <div class="main3-122">
+                        <form id="billing-information" class="main3-form">
+                            <div class="main3-form1">
+
+                                <div id="sale1-value" class="main3-12121">
+                                    <label for="sale" class="main3-121211-label">Nếu bạn có mã giảm giá, vui lòng điền vào phía bên dưới.</label>
+                                    <div class="main3-121212">
+                                        <input type="text" name="sale" id="sale" placeholder="Mã ưu đãi" class="z2">
+                                        <button id="saleButton" class="z3">Áp dụng</button>
+                                    </div>
+                                </div>
+
+                                <h3>Thông tin thanh toán</h3>
+                                <div class="main3-form11">
+                                    <div class="main3-form111 v1 w1">
+                                        <label for="lastname" class="form1-label">Tên<span class="yc">*</span></label>
+                                        <input type="text" id="lastname" name="lastname" class="form1-input" required>
+                                        <div id="lastname-error" class="error">Tên chỉ được chứa chữ cái.</div>
+                                    </div>
+                                    <div class="main3-form111 v1">
+                                        <label for="firstname" class="form1-label">Họ<span class="yc">*</span></label>
+                                        <input type="text" id="firstname" name="firstname" class="form1-input" required>
+                                        <div id="firstname-error" class="error">Họ chỉ được chứa chữ cái.</div>
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="company" class="form1-label">Tên công ty (tùy chọn)</label>
+                                        <input type="text" id="company" name="company" class="form1-input">
+                                    </div>
+                                    <div class="main3-form111">
+                                        <div class="form1-label" class="form1-label">Quốc gia/Khu vực<span class="yc">*</span></div>
+                                        <div class="main3-form1111">Việt Nam</div>
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="address" class="form1-label">Địa chỉ<span class="yc">*</span></label>
+                                        <input type="text" id="address" name="address" placeholder="Địa chỉ" class="form1-input" required>
+                                    </div>
+                                    <div class="main3-form111 v2">
+                                        <input type="text" id="diachi" name="diachi" class="form1-input" placeholder="Apartment, suite, unit, etc. (optional)">
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="postal" class="form1-label">Mã bưu điện (tuỳ chọn)</label>
+                                        <input type="text" id="postal" name="postal" class="form1-input">
+                                        <div id="postal-error" class="error">Mã bưu điện chỉ được chứa chữ số.</div>
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="city" class="form1-label">Tỉnh / Thành phố<span class="yc">*</span></label>
+                                        <input type="text" id="city" name="city" class="form1-input" required>
+                                        <div id="city-error" class="error">Thành phố chỉ được chứa chữ cái.</div>
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="phone" class="form1-label">Số điện thoại<span class="yc">*</span></label>
+                                        <input type="tel" id="phone" name="phone" class="form1-input" required>
+                                        <div id="phone-error" class="error">Số điện thoại chỉ được chứa chữ số.</div>
+                                    </div>
+                                    <div class="main3-form111">
+                                        <label for="email" class="form1-label">Địa chỉ email<span class="yc">*</span></label>
+                                        <input type="email" id="email" name="email" class="form1-input" required>
+                                        <div id="email-error" class="error">Định dạng email không hợp lệ.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main3-view">
+                                <div class="main3-view1">
+                                    <div class="main3-view11">
+                                        <div class="main3-view111">Đơn hàng của bạn</div>
+                                    </div>
+                                    <div class="main3-view12">
+                                        <table class="main3-table">
+                                            <tr>
+                                                <td class="main3-tablec1">
+                                                    <div class="t1">Sản phẩm</div>
+                                                </td>
+                                                <td class="main3-tablec2">
+                                                    <div class="table-items1 t1">Tạm tính</div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="main3-tablec1 t2">
+                                                    <div class="t21">Bao Da Bảo Vệ Cơ Fury </div>
+                                                    <div class="t22">
+                                                        <div class="t221">× </div>
+                                                        <p id="soluong"></p>
+                                                    </div>
+                                                </td>
+                                                <td class="main3-tablec2">
+                                                    <div class="table-items1 t3">
+                                                        <p id="gia">350</p>
+                                                        <div>.000 ₫</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="main3-tablec1">
+                                                    <div>Tạm tính</div>
+                                                </td>
+                                                <td class="main3-tablec2">
+                                                    <div class="table-items1 t3">
+                                                        <p id="tamtinh"></p>
+                                                        <div>.000 ₫</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="main3-tablec1">
+                                                    <div">Giao hàng</div>
+                                                </td>
+                                                <td class="main3-tablec2">
+                                                    <div class="table-items1">
+                                                        <div>Đồng giá:</div>
+                                                        <div class="t3">
+                                                            <p id="donggia">30</p>
+                                                            <div>.000 ₫</div>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="main3-tablec1">
+                                                    <div>Tổng</div>
+                                                </td>
+                                                <td class="main3-tablec2">
+                                                    <div class="table-items1 t3">
+                                                        <p id="tong"></p>
+                                                        <div>.000 ₫</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div class="main3-view121">
+                                            <form>
+                                                <div class="main3-form21">
+                                                    <input type="radio" id="option1" name="option" value="option1" class="form2-input" checked>
+                                                    <label for="option1" class="form2-label">Chuyển khoản ngân hàng</label>
+                                                    <div class="select1">Thực hiện thanh toán vào ngay tài khoản ngân hàng của chúng tôi. Vui lòng sử dụng Mã đơn hàng của bạn trong phần Nội dung thanh toán. Đơn hàng sẽ đươc giao sau khi tiền đã chuyển.</div>
+                                                </div>
+                                                <div class="main3-form21">
+                                                    <input type="radio" id="option2" name="option" value="option2" class="form2-input">
+                                                    <label for="option2"  class="form2-label">Trả tiền mặt khi nhận hàng</label>
+                                                    <div class="select1">Trả tiền mặt khi giao hàng</div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        
+                                        <button id="payButton" class="main3-button">ĐẶT HÀNG</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer1">
+            <div class="footer1-100">
+                <img src="./img/logo2.png" class="footer1-img1">
+                <div class="footer1-110">
+                    <div class="footer1-111">Usefull Links</div>
+                    <ul class="list3">
+                        <li class="list3-items1"><a href="index.html" class="a2">Trang Chủ</a></li>
+                        <li class="list3-items1"><a href="contact.html" class="a2">Địa chỉ</a></li>
+                        <li class="list3-items1"><a href="introduction.html" class="a2">Giới thiệu</a></li>
+                        <li class="list3-items1"><a href="contact.html" class="a2">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer1-110">
+                    <div class="footer1-111">Our Collection</div>
+                    <ul class="list3">
+                        <li class="list3-items1"><a href="buying.html" class="a2">Cơ Fury</a></li>
+                        <li class="list3-items1"><a href="buying.html" class="a2">Găng Tay</a></li>
+                        <li class="list3-items1"><a href="buying.html" class="a2">Bóng Bida</a></li>
+                        <li class="list3-items1"><a href="buying.html" class="a2">Phụ Kiện Khác</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

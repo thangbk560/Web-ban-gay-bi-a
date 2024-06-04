@@ -1,0 +1,118 @@
+:root {
+    --text-color: white;
+}
+::selection{
+    background: #df453e;
+    color: white;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background-color: #df453e;
+    height: 70px;
+}
+.list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.grid-img{
+    width: 81px;
+    height: 28px;
+    margin: 18px 200px 0 -300px;
+}
+.list-items {
+    margin: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+}
+.list-links {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.sect1{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 16px;
+    color: #4b4f58;
+    font-weight: 600;
+}
+.block{
+    background-color: whitesmoke;
+    width: 250px;
+    height: 100px;
+    margin: 70px 0 0 60px;
+    padding: 20px 20px;
+}
+form{
+    margin: 10px 10px;
+}
+.search-field{
+    height: 40px;
+    border-style:double ;
+    border-color: rgb(155, 155, 155);
+}
+.search-button{
+    background-color:whitesmoke;
+    border-style: none ;  
+    font-weight: 600;
+}
+.search-button a {
+    text-decoration: none;
+    color:#df453e;
+}
+.block1{
+    background-color: whitesmoke;
+    margin: 70px 0 0 30px;
+    width: 915px;
+    height: 475px;
+    text-align: center;
+}
+h2{
+    color: #df453e;
+    font-size: 75px;
+    font-weight: 390;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.no-products-found{
+    width: 410px;
+    margin: 0 0 0 260px;
+    border-top-color: #df453e ;
+    border-top-style:solid;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.footer{
+    justify-content: center;
+    color: white;
+    bottom: 0;
+    background-color: #161616;
+    display: flex;
+    padding: 80px 60px;
+    max-width: 1540px;
+    margin: 200px 0 0 0;
+}
+.grid7{
+    justify-content: center;
+    gap: 20px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.boxlist{
+    margin: 0 120px;
+}
+.list2 li{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,287 @@
+:root {
+    --text-color: white;
+}
+::selection{
+    background: rgb(130, 8, 167);
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    height: 130vh;
+    width: 100%;
+    background-image: url('./img/FURY MAIN/Section.jpg');
+    background-size: cover;
+}
+.img1 {
+    width: 1530px;
+    height: 1200px;
+    display: none;
+}
+.img2{
+    margin: 30px 0 0 150px ;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.list-items {
+    margin: -30px 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--text-color);
+}
+
+.list-links {
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.grid1{
+    margin: 100px 0 0 0;
+}
+h{
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 0 200px;
+}
+h1{
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 85px;
+    font-weight: 500;
+    margin: 0 0 0 200px;
+}
+.list1{
+    color: var(--text-color);
+    list-style-type: circle;
+    margin: 10px 0 0 180px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.b{
+    padding: 15px 25px 15px 25px;
+    color: var(--text-color);
+    background-color: #df453e;
+    text-decoration: none;
+    margin: 0 0 0 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+.sect1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 58px;
+    font-weight: 630;
+    margin: 100px 0 ;
+}
+.sect2 {
+    height: 560px;
+    width: 100%;
+    background-image: url('./img/FURY MAIN/Section1.jpg');
+    background-size: cover;
+}
+.img3{
+    width: 1540px;
+    height: 700px;
+    display: none;
+}
+h2{
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 0 200px;
+}
+h3{
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0 0 0 200px;
+}
+.boxlist{
+    margin:0 0 0 180px;
+}
+.list2{
+    list-style: circle;
+    display: inline-block;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 0 0px 0px;
+    color: var(--text-color);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.list2 li{
+    margin: 20px 0 0 0px;
+}
+h4{
+    color: var(--text-color);
+    font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 0 200px;
+}
+.sect3{
+    height: 560px;
+    width: 100%;
+    background-image: url('./img/FURY MAIN/Section2.jpg');
+    background-size: cover;
+}
+.sect4{
+    height: 560px;
+    width: 100%;
+    background-image: url('./img/FURY MAIN/Section3.jpg');
+    background-size: cover;
+}
+.grid5{ 
+    max-width: 1500px;
+    margin: 180px;
+}
+.grid6{ 
+    max-width: 1500px;
+    margin: 180px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxleft{
+    float: left;
+    align-self: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+.boxright{
+    float: right;
+    align-self: center;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+.box1{
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+.boximg{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.boximg1{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.boxtext{
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    padding: 20px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h5{
+    font-size: 25px;
+}
+.sect6{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 100px;
+    width: 100%;
+    max-width: 1540px;
+    margin: 0 0 0 230px;
+}
+.sect7{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 100px;
+    width: 100%;
+    max-width: 1540px;
+    margin:50px 0 50px 230px;
+}
+
+
+
+.product-item {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.product-image {
+    position: relative;
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-image .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 0, 0, 0.8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.product-info {
+    padding: 10px;
+}
+
+.product-info h6 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-info .price {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.product-info .price .original-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.product-info .price .discounted-price {
+    color: #e60000;
+    font-weight: bold;
+}
+.footer{
+    color: var(--text-color);
+    background-color: #161616;
+    display: flex;
+    padding: 80px 60px;
+    max-width: 100%;
+}
+.grid7{
+    gap: 20px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0 0 0 150px;
+}
